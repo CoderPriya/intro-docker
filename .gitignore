@@ -1,2 +1,8 @@
 .DS_Store
 node_modules/
+
+img/docker_linux.png
+img/docker_logo_white.png
+img/docker_python.png
+img/docker_thess.png
+package-lock.json
