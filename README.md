@@ -1,10 +1,26 @@
 ## Introduction Docker
 ![Docker logo](https://raw.github.com/nsaboo/intro-docker/gh-pages/img/docker_logo.png)
 
-why, what, how, setup, components and more
+what, why, how, setup, components and more
 
 ---
-<!-- ![Docker logo](https://raw.github.com/nsaboo/intro-docker/gh-pages/img/docker_logo.png) -->
+
+### Docker Statistics
+dockercon17
+![Docker ](https://raw.github.com/nsaboo/intro-docker/img/dockercon_2017.png)
+
+- More than 14M Docker hosts
+- More than 900k Docker apps
+- 77,000% growth in Docker job listings
+- More than 12B image pulls (accounting for 390,000% growth)
+- More than 3,300 contributors
+- More than 280 cities hold Docker meetups, which accounts for more than 170K members worldwide
+
+- [moby](https://github.com/moby/moby) ranks 20th [gitstar-ranking](https://gitstar-ranking.com/repositories) by project on github
+
+---
+
+### what is docker
 ![Docker](https://raw.github.com/nsaboo/intro-docker/gh-pages/img/docker.jpg)
 
 Docker is an open-source project that automates the deployment of applications inside software containers.
@@ -99,39 +115,7 @@ To see how to connect your Docker Client to the Docker Engine running on this vi
 ---
 
 #### boot2docker.iso
-<!-- ![boot2docker.iso](https://raw.github.com/nsaboo/intro-docker/gh-pages/img/boot2docker_iso.png) -->
-
-```
-nsaboo-mn:~ nsaboo$ tree .docker/
-.docker/
-└── machine
-    ├── cache
-    │   └── boot2docker.iso
-    ├── certs
-    │   ├── ca-key.pem
-    │   ├── ca.pem
-    │   ├── cert.pem
-    │   └── key.pem
-    └── machines
-        └── myBoxName
-            ├── boot2docker.iso
-            ├── ca.pem
-            ├── cert.pem
-            ├── config.json
-            ├── disk.vmdk
-            ├── id_rsa
-            ├── id_rsa.pub
-            ├── key.pem
-            ├── myBoxName
-            │   ├── Logs
-            │   │   └── VBox.log
-            │   ├── myBoxName.vbox
-            │   └── myBoxName.vbox-prev
-            ├── server-key.pem
-            └── server.pem
-
-7 directories, 18 files
-```
+![boot2docker.iso](https://raw.github.com/nsaboo/intro-docker/gh-pages/img/boot2docker_iso.png)
 
 ---
 
@@ -149,16 +133,5 @@ hosts and exposes them as a single virtual Docker host. It scale up to multiple 
 ![Docker distribution](https://raw.github.com/nsaboo/intro-docker/gh-pages/img/docker_distribution.png)
 
 A (hosted) service containing repositories of images which responds to the Registry API.
-
----
-
-### Docker Community and stats
-
-- 1200 Docker Contributors
-- 100,000 Dockerized Applications
-- 3 to 4 Million Developers using Docker
-- 300 Million Downloads
-- 32,000 Docker Related Projects
-- 70% of enterprises are using Docker
 
 ---
