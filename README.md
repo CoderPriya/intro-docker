@@ -1,5 +1,9 @@
 ## Introduction Docker
+![Docker logo](https://raw.github.com/nsaboo/intro-docker/gh-pages/img/docker_logo.png)
 
+why, what, how, setup, components and more
+
+---
 <!-- ![Docker logo](https://raw.github.com/nsaboo/intro-docker/gh-pages/img/docker_logo.png) -->
 ![Docker](https://raw.github.com/nsaboo/intro-docker/gh-pages/img/docker.jpg)
 
