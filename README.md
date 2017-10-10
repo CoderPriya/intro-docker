@@ -1,5 +1,10 @@
 ## Introduction Docker
 
+![Docker logo](https://raw.github.com/nsaboo/intro-docker/gh-pages/img/docker_logo.png)
+
+#### [Nandakishore Saboo]
+
+
 ---
 
 #### container diagram
