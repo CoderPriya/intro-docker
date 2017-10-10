@@ -1,29 +1,26 @@
-## Introduction Docker
+## Docker
 ![Docker logo](https://raw.github.com/nsaboo/intro-docker/gh-pages/img/docker_logo.png)
 
-what, why, how, setup, components and more
+Quick Introduction to [Docker](https://www.docker.com/)
+
+
+*Stats, What, Why, How, Setup, Components ..*
 
 ---
 
-### Docker Statistics
+### Docker Stats
 dockercon17
-![Docker ](https://raw.github.com/nsaboo/intro-docker/img/dockercon_2017.png)
 
-- More than 14M Docker hosts
-- More than 900k Docker apps
-- 77,000% growth in Docker job listings
-- More than 12B image pulls (accounting for 390,000% growth)
-- More than 3,300 contributors
-- More than 280 cities hold Docker meetups, which accounts for more than 170K members worldwide
+![Docker](https://raw.github.com/nsaboo/intro-docker/gh-pages/img/dockercon_2017.png)
 
-- [moby](https://github.com/moby/moby) ranks 20th [gitstar-ranking](https://gitstar-ranking.com/repositories) by project on github
+Docker [moby](https://github.com/moby/moby) ranks 20th in [gitstar-ranking](https://gitstar-ranking.com/repositories)
 
 ---
 
-### what is docker
+### What is Docker
 ![Docker](https://raw.github.com/nsaboo/intro-docker/gh-pages/img/docker.jpg)
 
-Docker is an open-source project that automates the deployment of applications inside software containers.
+> Docker is an open platform for developing, shipping, and running applications.
 
 ---
 
@@ -34,6 +31,30 @@ Docker is an open-source project that automates the deployment of applications i
 
 #### container vs vm diagram
 ![container vs vm](https://raw.github.com/nsaboo/intro-docker/gh-pages/img/container_vs_vm.jpg)
+
+---
+
+#### container
+![container](https://raw.github.com/nsaboo/intro-docker/gh-pages/img/docker_container_analogy.jpg)
+
+---
+
+### Technology
+
+ - Linux [x86-64](https://www.wikiwand.com/en/X86-64)
+ - [Go](https://golang.org/) language
+ - [Client - Server](https://www.wikiwand.com/en/Client%E2%80%93server_model) (deamon) architecture
+ - Union file systems ([UnionFS](https://www.wikiwand.com/en/UnionFS): AUFS, btrfs, vfs etc)
+ - [Namespaces](https://en.wikipedia.org/wiki/Cgroups#NAMESPACE-ISOLATION) (pid, net, ipc, mnt, uts)
+ - Control Groups ([cgroups](https://www.wikiwand.com/en/Cgroups))
+ - Container format ([libcontainer](https://github.com/opencontainers/runc/tree/master/libcontainer "Libcontainer provides a native Go implementation for creating containers with namespaces, cgroups, capabilities, and filesystem access controls. It allows you to manage the lifecycle of the container performing additional operations after the container is created."))
+
+###### See more at [Understanding docker](https://docs.docker.com/engine/understanding-docker/)
+
+---
+
+Docker accesses virtualisation features of Linux
+![container](https://raw.github.com/nsaboo/intro-docker/gh-pages/img/docker_with_linux.png)
 
 ---
 
