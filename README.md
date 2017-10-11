@@ -183,7 +183,8 @@ hosts and exposes them as a single virtual Docker host. It scale up to multiple 
 
 ![Docker distribution](https://raw.github.com/nsaboo/intro-docker/gh-pages/img/docker_distribution.png)
 
-A (hosted) service containing repositories of images which responds to the Registry API.
+> A (hosted) service containing repositories of images which responds to the Registry API.
+* toolset to pack, ship, store, and deliver content.
 
 ---
 
@@ -191,7 +192,6 @@ A (hosted) service containing repositories of images which responds to the Regis
 
 > Docker registry could be hosted by a third party, as public or private registry, like one of the following registries:
 * Docker Hub,
-* Quay,
 * Google Container Registry,
 * AWS Container Registry
 
