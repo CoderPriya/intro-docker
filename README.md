@@ -24,22 +24,32 @@ Docker [moby](https://github.com/moby/moby) ranks 20th in [gitstar-ranking](http
 
 ---
 
-### why Docker
+### Why Docker
 ![why Docker](https://raw.github.com/nsaboo/intro-docker/gh-pages/img/why_docker.png)
 
 ---
 
-#### container vs vm diagram
+#### How Docker
+container vs vm diagram
+
 ![container vs vm](https://raw.github.com/nsaboo/intro-docker/gh-pages/img/container_vs_vm.jpg)
+
+```
+- Containers are lightweight because they don't need the extra load of a hypervisor,
+    but run directly within the host machine's kernel.
+- This means you can run more containers on a given hardware combination
+    than if you were using virtual machines.
+```
 
 ---
 
-#### container
+Docker Container (name)
+
 ![container](https://raw.github.com/nsaboo/intro-docker/gh-pages/img/docker_container_analogy.jpg)
 
 ---
 
-### Technology
+### Docker Technology
 
  - Linux [x86-64](https://www.wikiwand.com/en/X86-64)
  - [Go](https://golang.org/) language
@@ -53,12 +63,17 @@ Docker [moby](https://github.com/moby/moby) ranks 20th in [gitstar-ranking](http
 
 ---
 
-Docker accesses virtualisation features of Linux
+Docker with Linux
+
 ![container](https://raw.github.com/nsaboo/intro-docker/gh-pages/img/docker_with_linux.png)
+
+```
+Docker accesses virtualisation features of Linux and thus runs natively without docker-machine
+```
 
 ---
 
-#### docker toolbox
+#### docker setup (Mac)
 brew cask install docker toolbox
 ![docker toolbox](https://raw.github.com/nsaboo/intro-docker/gh-pages/img/brew_cask_install_docker_toolbox.png)
 
@@ -79,10 +94,14 @@ brew desc docker-compose
 
 ![Docker machine](https://raw.github.com/nsaboo/intro-docker/gh-pages/img/docker_machine.png)
 
-A tool which makes it really easy to create Docker hosts on your computer,
-on cloud providers and inside your own data center.
-It creates servers, installs Docker on them, then configures the Docker client to talk to them.
-Required for Mac, Windows users.
+```
+- Docker Machine is a tool that lets you install Docker Engine on virtual hosts,
+    and manage the hosts with docker-machine commands (client-server).
+- You can use Machine to create Docker hosts
+    on your local Mac or Windows box,
+    on your company network or data center,
+    or on cloud providers like Azure, AWS, or Digital Ocean.
+```
 
 ---
 
@@ -90,17 +109,25 @@ Required for Mac, Windows users.
 
 ![Docker compose](https://raw.github.com/nsaboo/intro-docker/gh-pages/img/docker_compose.png)
 
-A tool for defining and running complex applications with Docker
-(eg a multi-container application) with a single file.
+```
+- Compose is a tool for defining and running multi-container Docker applications.
+- With Compose, you use a Compose file (Dockerfile) to configure your application's services.
+- Then, using a single command, you create and start all the services from your configuration.
+```
 
 ---
 
 ### Docker Components
+
+Graphical Representation
+
 ![Docker Components](https://raw.github.com/nsaboo/intro-docker/gh-pages/img/docker_components.png)
 
 ---
 
 #### docker machine create virtualbox
+
+For Mac and Windows
 <!-- ![virtualbox](https://raw.github.com/nsaboo/intro-docker/gh-pages/img/docker_machine_create_virtualbox.png) -->
 
 ```
@@ -136,8 +163,10 @@ To see how to connect your Docker Client to the Docker Engine running on this vi
 ---
 
 #### boot2docker.iso
-![boot2docker.iso](https://raw.github.com/nsaboo/intro-docker/gh-pages/img/boot2docker_iso.png)
 
+> Boot2Docker is a lightweight Linux distribution made specifically to run Docker containers. It runs completely from RAM, is a small ~38MB download and boots in ~5s.
+
+![boot2docker.iso](https://raw.github.com/nsaboo/intro-docker/gh-pages/img/boot2docker_iso.png)
 ---
 
 ### Docker swarm
