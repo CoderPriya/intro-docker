@@ -44,7 +44,7 @@ virtual-machines vs containers
 
 ---
 
-Docker Container (name)
+Docker Container
 
 ![container](https://raw.github.com/nsaboo/intro-docker/gh-pages/img/docker_container_analogy.jpg)
 
