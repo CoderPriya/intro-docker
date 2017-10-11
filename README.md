@@ -31,7 +31,7 @@ Docker [moby](https://github.com/moby/moby) ranks 20th in [gitstar-ranking](http
 ---
 
 #### How Docker
-container vs vm diagram
+virtual-machines vs containers
 
 ![container vs vm](https://raw.github.com/nsaboo/intro-docker/gh-pages/img/container_vs_vm.jpg)
 
@@ -168,14 +168,17 @@ To see how to connect your Docker Client to the Docker Engine running on this vi
 > Boot2Docker is a lightweight Linux distribution made specifically to run Docker containers. It runs completely from RAM, is a small ~38MB download and boots in ~5s.
 
 ![boot2docker.iso](https://raw.github.com/nsaboo/intro-docker/gh-pages/img/boot2docker_iso.png)
+
 ---
 
 ### Docker swarm
 
 ![Docker swarm](https://raw.github.com/nsaboo/intro-docker/gh-pages/img/docker_swarm.png)
 
+```
 A native clustering tool for Docker. Swarm pools together several Docker
 hosts and exposes them as a single virtual Docker host. It scale up to multiple hosts.
+```
 
 ---
 
